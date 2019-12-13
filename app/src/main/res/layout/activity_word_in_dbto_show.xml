@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:text="单词详解"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="#C4C4C4"
+            android:gravity="center|left"
+            android:text="单词"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/key"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="50dp"
+            android:gravity="top|left"
+            android:textSize="15dp"
+            android:ems="10"
+             />
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="#C4C4C4"
+            android:gravity="center|left"
+            android:text="词义"
+            android:textSize="15dp" />
+
+        <EditText
+            android:id="@+id/fy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="50dp"
+            android:gravity="top|left"
+            android:textSize="15dp"
+            android:ems="10"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="#C4C4C4"
+            android:gravity="center|left"
+            android:text="例句"
+            android:textSize="15dp" />
+
+        <EditText
+            android:id="@+id/word_orig"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="50dp"
+            android:gravity="top|left"
+            android:textSize="15dp"
+            android:ems="10"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="#C4C4C4"
+            android:gravity="center|left"
+            android:text="例句翻译"
+            android:textSize="15dp" />
+
+        <EditText
+            android:id="@+id/word_trans"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="50dp"
+            android:gravity="top|left"
+            android:textSize="15dp"
+            android:ems="10"
+            />
+        <Button
+            android:id="@+id/button_update_db"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:background="#228b22"
+            android:text="更新" />
+        <Button
+            android:id="@+id/button_delect_db"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:background="#a52a2a"
+            android:text="删除" />
+    </LinearLayout>
+</ScrollView>
